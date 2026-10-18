@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_1 || Hadear</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #610404;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #D8C4B6;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            color: #610404;
+            font-size: 38px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            color: #610404;
+            margin-top: 0;
+            font-size: 19px;
+        }
+
+        h2 {
+            color: #610404;
+            font-size: 25px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        .skills-banner {
+            background-color: #9c8467db;
+            color: #610404;
+            padding: 4px;
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        ul.skills-list {
+            margin-top: 10px;
+            padding-left: 25px;
+        }
+
+        ul.skills-list li {
+            margin-bottom: 5px;
+        }
+
+        ul.skills-list a {
+            color: #0000ee;
+            text-decoration: underline;
+        }
+
+
+        .subtitle {
+            background-color: #9c8467db;
+            color: #610404;
+            padding: 4px;
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        th,
+        td {
+            border: 1px solid #555;
+            padding: 8px 10px;
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        th {
+            background-color: #9c8467db;
+            color: #610404;
+            text-align: center;
+            font-weight: bold;
+            border-color: #fff #fff #555 #fff;
+        }
+
+        .logo-box {
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            font-style: italic;
+            margin: auto;
+        }
+
+        .bg-blue {
+            background-color: #1e88e5;
+        }
+
+        .bg-pink {
+            background-color: #d81b60;
+        }
+
+        .bg-green {
+            background-color: #2e7d32;
+        }
+
+        td.center {
+            text-align: center;
+        }
+
+        td ul {
+            margin: 0;
+            padding-left: 18px;
+        }
+
+        .total-experience {
+            font-size: 14px;
+            padding: 6px 10px;
+
+        }
+
+
+        fieldset {
+            border: 1px solid #777;
+            padding: 15px 20px;
+            margin-top: 15px;
+        }
+
+        legend {
+            padding: 0 5px;
+            color: #531111;
+            font-size: 15px;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 140px 1fr 140px 1fr;
+            gap: 12px 10px;
+            align-items: center;
+        }
+
+        .form-grid label {
+            font-size: 14px;
+        }
+
+        .form-grid input {
+            width: 90%;
+            padding: 3px 6px;
+            border: 1px solid #555;
+            font-size: 14px;
+        }
+
+        .button-group {
+            margin-top: 15px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .btn-send {
+            background-color: #0d5c9d;
+            color: white;
+            border: none;
+            padding: 6px 14px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .btn-clear {
+            background-color: #c62828;
+            color: white;
+            border: none;
+            padding: 6px 14px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Hadear</h1>
+        <p>Fornt End Devolper</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci aut numquam sit dolores esse quasi quae
+            perferendis, cum aliquid aspernatur possimus in minima assumenda? Nulla sequi quos mollitia dolores quia!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni voluptas accusantium enim laboriosam delectus
+            iure, perspiciatis ea eveniet itaque fugit consequatur et, expedita tenetur accusamus in fuga quidem
+            dignissimos. Magnam.</p>
+    </section>
+
+    <div class="skills-banner">Skills</div>
+    <ul class="skills-list">
+        <li><a href="https://en.wikipedia.org/wiki/HTML">html</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/CSS">css</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/JavaScript">Javascript</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/React_(software)">react.js</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Angular_(web_framework)">angulr</a></li>
+    </ul>
+
+    <section>
+        <h2>Experience Timeline</h2>
+        <div class="subtitle">Professional Experience Overview</div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>company</th>
+                    <th>logo</th>
+                    <th>role</th>
+                    <th>key achievement</th>
+                    <th>dates</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">techcorp</td>
+                    <td rowspan="2" class="center">
+                        <div class="logo-box bg-blue">TC</div>
+                    </td>
+                    <td>senior full stack developer</td>
+                    <td>
+                        <ul>
+                            <li>lead developmentof web application</li>
+                            <li>mentor junior developers</li>
+                            <li>architect scalable solutions</li>
+                        </ul>
+                    </td>
+                    <td>jan 2023-present</td>
+                </tr>
+
+                <tr>
+                    <td>full stack developer</td>
+                    <td>
+                        <ul>
+                            <li>lead developmentof web application</li>
+                            <li>mentor junior developers</li>
+                            <li>architect scalable solutions</li>
+                        </ul>
+                    </td>
+                    <td>2021-2023</td>
+                </tr>
+
+                <tr>
+                    <td>digital anency pro</td>
+                    <td class="center">
+                        <div class="logo-box bg-pink">DA</div>
+                    </td>
+                    <td>frontend developer</td>
+                    <td>
+                        <ul>
+                            <li>lead developmentof web application</li>
+                            <li>mentor junior developers</li>
+                            <li>architect scalable solutions</li>
+                        </ul>
+                    </td>
+                    <td>2019 - 2020</td>
+                </tr>
+
+                <tr>
+                    <td>web design studio</td>
+                    <td class="center">
+                        <div class="logo-box bg-green">WD</div>
+                    </td>
+                    <td>junior web developer</td>
+                    <td>
+                        <ul>
+                            <li>lead developmentof web application</li>
+                            <li>mentor junior developers</li>
+                            <li>architect scalable solutions</li>
+                        </ul>
+                    </td>
+                    <td>2019 - 2020</td>
+                </tr>
+
+                <tr>
+                    <td colspan="5" class="total-experience">
+                        total Experience 5+ years in web developer
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+    <section>
+        <h2>Contact Me</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit at repudiandae esse libero magnam
+            quod ab? Molestias fuga animi qui!</p>
+
+        <form>
+            <fieldset>
+                <legend>personal information</legend>
+                <div class="form-grid">
+                    <label for="first-name">first name</label>
+                    <input type="text" id="first-name">
+
+                    <label for="last-name">last name</label>
+                    <input type="text" id="last-name">
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email">
+
+                    <label for="phone">phone number</label>
+                    <input type="tel" id="phone">
+
+                    <label for="meeting-date">preferred meeting date:</label>
+                    <input type="text" id="meeting-date">
+
+                    <label for="best-time">best time to Contact</label>
+                    <input type="text" id="best-time">
+                </div>
+            </fieldset>
+
+            <div class="button-group">
+                <button type="submit" class="btn-send">send massage</button>
+                <button type="reset" class="btn-clear">clear data</button>
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>
