@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #0f172a;
+    background-color: #f8fafc;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.main-header {
+    background-color: #0e1e38;
+    padding: 0 6%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.logo {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.logo span {
+    color: #a855f7;
+}
+
+.nav-links {
+    display: flex;
+    gap: 36px;
+}
+
+.nav-links a {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+
+.nav-links a:hover {
+    color: #c084fc;
+}
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    min-height: 70vh;
+    background: linear-gradient(rgba(11, 15, 23, 0.55), rgba(11, 15, 23, 0.55)), 
+                url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    padding: 60px 6%;
+}
+
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+    color: #a855f7;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    color: #cbd5e1;
+    max-width: 480px;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #8b5cf6;
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 9999px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-primary:hover {
+    background-color: #7c3aed;
+    transform: translateY(-1px);
+}
+
+.courses-section {
+    padding: 80px 6%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-header {
+    margin-bottom: 40px;
+}
+
+.section-header h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+.section-header p {
+    font-size: 0.95rem;
+    color: #64748b;
+}
+
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+}
+
+.course-card {
+    padding: 32px 28px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 220px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.05);
+}
+
+.card-web {
+    background-color: #f3e8ff;
+}
+
+.card-ui {
+    background-color: #e0f2fe;
+}
+
+.card-data {
+    background-color: #dcfce7;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.course-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.badge {
+    background-color: #8b5cf6;
+    color: #ffffff;
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 999px;
+    letter-spacing: 0.5px;
+}
+
+.course-card p {
+    font-size: 0.95rem;
+    color: #475569;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.card-link {
+    color: #7c3aed;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+.card-link:hover {
+    color: #6d28d9;
+}
+
+.footer {
+    background-color: #0e1e38;
+    color: #ffffff;
+    text-align: center;
+    padding: 48px 20px;
+    margin-top: 40px;
+}
+
+.footer-logo {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.footer-logo span {
+    color: #a855f7;
+}
+
+.footer-text {
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+}
